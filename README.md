@@ -1,1 +1,0 @@
-# IIIT-Kalyani-Alumni-Network
