@@ -1,0 +1,27 @@
+.header
+{
+        font-size: 80px;
+        line-height: 0.9em;
+        margin-bottom: 30px;
+        font-family: "Nunito";
+        font-weight: bold;
+        color: #35404e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        justify-content: flex-end;
+
+}
+.batch
+{
+        min-height: 70vh;
+        margin-top: 25px;
+        
+       
+
+}
+.batchimage{
+        background-color: black;
+        min-height: 60vh;
+}

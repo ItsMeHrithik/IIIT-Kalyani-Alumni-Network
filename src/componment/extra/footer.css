@@ -1,0 +1,46 @@
+
+
+/*footrer*/
+.footer {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        margin-top: 50px;
+        bottom: 0!important;
+        min-height: 400px;
+
+}
+.sec-1{
+        max-width: 400px;
+        margin: 20px;
+        min-width: 300px;
+       
+}
+.sec-1 h2{
+        color: white;
+        margin: 2px;
+        margin-top: 4px !important;
+        display: inline;
+        font-family: "Nunito";
+        font-weight: bold;
+        border-bottom: 2px solid red;
+
+}
+.sec-1 p{
+        margin-top: 15px;
+        float: inline-end;
+}
+.sec-1 ul{
+        margin-top: 15px;
+        list-style: none;
+        left: 0;
+        
+}
+.sec-1 li{
+        
+        transform: translateX(-20px);
+        
+}
+.sec-2{
+        margin-top: 15px;
+        
+}

@@ -2,10 +2,10 @@ import React from 'react';
 import Slider from "./componment/homecompo/Crousel";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Navbar from './componment/homecompo/Navbar';
-import { Col, Container, Row } from 'react-bootstrap';
-import Item from './componment/homecompo/topcrousel';
-import Welocme from './componment/homecompo/welocme';
-import Kalubhai from './componment/extra/kalubhai';
+import Footer from './componment/homecompo/Footer';
+import Batch from './componment/homecompo/Batch';
+import Batchleft from './componment/homecompo/Batchleft';
+
 function App() {
 
   return (
@@ -13,23 +13,12 @@ function App() {
       <Router>
         <Navbar />
         <Slider />
-        <Container>
-          <Item />
-          <Row>
-            <Col lg="6">
-              <Welocme />
-            </Col>
-            <Col lg="6">
-              <Welocme />
-            </Col>
-          </Row>
-          <Kalubhai />
-          
-        </Container>
+        <Batch />
+        <Batchleft data="2018-22" />
 
-        <Switch>
-          <Route path='/' exact />
-        </Switch>
+
+
+      <Footer />
       </Router>
     </>
   )

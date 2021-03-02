@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
 import karo from '../images/kl.png';
+import '../extra/Navbar.css'
 
 
 function Navbar (){

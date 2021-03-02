@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ok from '../images/download.jpeg'
 
 export default class Slider extends Component {
         render() {
@@ -13,7 +14,8 @@ export default class Slider extends Component {
                                         <Carousel.Item cl interval={1000}>
                                                 <img
                                                         className="d-block w-100"
-                                                        src="https://source.unsplash.com/1024x300/?student"
+                                                        src='https://source.unsplash.com/1024x300/?world'
+                                                        style={{height:'400px'}}
                                                         alt="First slide"
                                                 />
                                                 <Carousel.Caption>
